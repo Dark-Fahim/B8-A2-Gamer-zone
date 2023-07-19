@@ -18,6 +18,18 @@
     .logo>h2{
         font-size: 2rem;
     }
+    .gamer-container{
+        flex-direction: column-reverse;
+        padding: 20px 0;
+        margin-top: 50px;
+    }
+    .gamer-section-img{
+        width: calc(100% - 50px);
+    }
+    .gamer-section-content{
+        width: calc(100% - 50px);
+        text-align: center;
+    }
 }
 
 /* tablet responsive */
@@ -37,5 +49,17 @@
     }
     .nav-bar>ul{
         gap: 25px;
+    }
+    .gamer-container{
+        flex-direction: column-reverse;
+        padding: 40px 0;
+        margin-top: 50px;
+    }
+    .gamer-section-img{
+        width: calc(100% - 50px);
+    }
+    .gamer-section-content{
+        width: calc(100% - 50px);
+        text-align: center;
     }
 }
