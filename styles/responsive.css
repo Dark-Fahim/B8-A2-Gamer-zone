@@ -43,6 +43,14 @@
     .badge-img>img{
         width: 150px;
     }
+    /* .games{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } */
+    .game{
+        width: calc(33% - 40px);
+    }
+    
 }
 
 /* tablet responsive */
