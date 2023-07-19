@@ -30,6 +30,9 @@
         width: calc(100% - 50px);
         text-align: center;
     }
+    .online-videos-container{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* tablet responsive */
@@ -61,5 +64,8 @@
     .gamer-section-content{
         width: calc(100% - 50px);
         text-align: center;
+    }
+    .online-videos-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
