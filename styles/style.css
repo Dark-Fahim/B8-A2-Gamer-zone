@@ -300,9 +300,9 @@ body{
     padding: 100px 0;
     margin-top: 250px;
 }
-.games-container{
+/* .games-container{
     flex-direction: column;
-}
+} */
 
 .games{
     display: flex;
@@ -355,13 +355,16 @@ body{
     color: #fff;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .footer-headings{
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
     margin-top:  70px;
+    width: 100%;
 }
 .footer-headings>p{
     color: #fff;
@@ -370,8 +373,13 @@ body{
 }
 
 .social-icons{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
+    width: 100%;
 }
 .social-icons>a{
     font-size: 40px;
@@ -381,8 +389,10 @@ body{
 .footer-conditions{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
     margin-top: 50px;
+    width: 100%;
     font-weight: 500;
 }
 .footer-conditions>p{
