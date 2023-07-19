@@ -2,7 +2,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Common styles */
+:root{
+    --primary-color :#FF42A5;
+    --secondary-color: #4EC5F7;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 
 body{
     font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+}
+/* Header styles */
+
+.header-section{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo>h2{
+    font-size: 3.75rem;
+}
+
+.logo>h2>span{
+    color: var(--primary-color);
+}
+.nav-bar{
+    width: 40%;
+}
+.nav-bar>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar>ul>li{
+    
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #3C354F;
+    cursor: pointer;
+}
+.follow-us-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 20px;
+}
+
+.follow-us-btn> i{
+    font-size: 20px;
+    padding-left: 15px;
 }
