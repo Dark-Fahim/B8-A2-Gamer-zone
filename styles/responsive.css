@@ -1,0 +1,14 @@
+/* Mobile Devices Responsive */
+@media screen and (max-width: 576px) {
+    .header-container, .nav-bar>ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .follow-us-btn{
+        width: auto;
+        padding: 10px;
+    }
+    .logo>h2{
+        font-size: 2rem;
+    }
+}
