@@ -20,7 +20,10 @@ li{
 a{
     text-decoration: none;
 }
-
+p{
+    color: #534C64;
+    text-align: center;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -212,7 +215,6 @@ body{
 .card-img{
     margin-bottom: 15px;
     position: relative;
-    transition: 3s ease-in 1s;
 }
 .card-img>img{
     width: calc(100%);
@@ -256,4 +258,37 @@ body{
     display: flex;
     height: 100%;
     width: 100%;
+}
+
+
+/* Play instant styles */
+.play-instant-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 240px;
+    align-items: center;
+
+}
+
+.play-instant-content{
+    width: calc(50% - 240px);
+    text-align: end;
+}
+.play-instant-content>p{
+    text-align: end;
+    margin-top: 24px;
+}
+.play-instant-img{
+    width: 50%;
+    position: relative;
+}
+.play-instant-img>img{
+    width: 100%;
+}
+
+.badge-img{
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    transform: translate(50%, -50%);
 }
