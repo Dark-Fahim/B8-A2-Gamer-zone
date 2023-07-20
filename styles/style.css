@@ -111,6 +111,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: start;
 }
 .banner-heading{
     font-size: 3rem;
@@ -227,18 +228,19 @@ body{
     font-weight: 500;
 }
 .play-btn{
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     border: 3px solid var(--primary-color);
-    display: none;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
     cursor: pointer;
-    
 }
 .play-btn>.fa-play-circle{
     border: 0;
@@ -253,11 +255,11 @@ body{
     font-weight: 600;
     font-size: 1.25rem;
     text-align: center;
+    margin-top: 15px;
 }
-.card-img:hover .play-btn{
+.card-img:hover .play-btn{ 
     display: flex;
-    height: 100%;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -322,6 +324,7 @@ body{
     transition: .5s;
     width: 20%;
     margin-top: 30px;
+    border: 2px solid transparent;
 }
 .game:hover{
     border: 2px solid #FF42A5;
